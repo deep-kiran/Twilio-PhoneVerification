@@ -29,8 +29,11 @@ public class Controller {
 	String otp;
 	public HashMap<String,String> securityToken;
 	Random rand;
-	private final static String AUTH_SID ="AC607f185ac0b0b150c28d83e41789aa26";
-	private final static String AUTH_TOKEN ="efb2efd0460c287f04cc52778c98f264";
+	/*
+	 * ID and Token from Twilio Dashboard 
+	 */
+	private final static String AUTH_SID ="***";
+	private final static String AUTH_TOKEN ="***";
 	
 	public Controller() {
 		securityToken =new HashMap<String,String>();

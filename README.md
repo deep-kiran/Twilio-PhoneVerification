@@ -1,0 +1,1 @@
+# This API is used to authenticate user's phone numbers via OTP 
